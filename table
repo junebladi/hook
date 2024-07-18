@@ -1,3 +1,4 @@
+script_key="gZHNRvglDwTtRumRoItPsWjqBxxxDkkR";
 getgenv().Hook = {
     ['StartUP'] = {
         ["FPSUnlocker"] = true, --// self explantory.
