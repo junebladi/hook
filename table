@@ -1,0 +1,87 @@
+getgenv().Hook = {
+    ['StartUP'] = {
+        ["FPSUnlocker"] = true, --// self explantory.
+
+    ['Settings'] = {
+        ["Intro"] = true, --// do want you heart desires fatass.
+        ["IntroID"] = "rbxassetid://18525425729" --// dont touch fatass big bitch.
+
+        },
+    },
+
+    ['Aimbot'] = {
+        ["Keybind"] = Enum.KeyCode.C, --// keybind to lock on.
+        ["Camlock"] = 0.143, --// Camlock Prediction Retard.
+        
+        ["Enabled"] = false, --// toggler dumbass.
+        ["Shake"] = 0, --// shake value fat fuck.
+        
+        ["Smoothing"] = 0.1222,
+        ["Style"] = "Exponential", --// https://create.roblox.com/docs/reference/engine/enums/EasingStyle
+        ["Direction"] = "InOut", --// https://create.roblox.com/docs/reference/engine/enums/EasingDirection
+
+        ["Enabled"] = true, --// toggler 
+        ["SinglePart"] = "UpperTorso", --// singular hit part
+
+        ["Basic"] = false, --// closetpart toggler
+        ["NearestParts"] = {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"},
+
+
+    },
+    ['Silent'] = {
+        ["Prediction"] = 0.11886, --// silentAim Prediction.
+        ["Detection"] = {Close = 35, Mid = 65, Far = math.huge}, --// close med or far change for fighting dumbass.
+    },
+    ['SpecificDis'] = {
+        ["Enabled"] = false, --// toggler.
+            ["Prediction"] = {Close = 0.138, Mid = 0.1247, Far = 0.123,} --// distance retard.
+
+
+    },
+    ['Offsets'] = {
+        ["Jump"] = {Smoothing = -0.15}, --// jump offset retard 
+        ["Fall"] = {Smoothing = 0.40}, --// fall offset dumbass retard.
+    },  
+    
+    ['Air'] = {
+        ["Enabled"] = true, --// Enables AirShotPart
+        ["AirPart"] = "Head", --// self explantory 
+    },
+
+    ['Checks'] = {
+        ["TargetDeath"] = false,
+        ["PlayerDeath"] = false, --// Disable on players death
+        ["UnlockOnPlayersKO"] = true, --// self explantory retard ass nigga.
+        ["AntiGroundShots"] = true, --// its not possible to NOT HIT THE UFKCING GROUND.
+        
+        
+        
+   },
+    
+    ['Spin'] = {
+        ["Enabled"] = true, --// Enables 360
+        ["SpinSpeed"] = 10000, --// spin speed fucking dumbass.
+        ["Degrees"] = 360, --// i dont fucking know retard u should know dumbass.
+        ["Keybind"] = Enum.KeyCode.V, --// keybind to spin retarded ass nigga.
+    },
+
+    ["Visuals"] = {
+        ["DistanceESP"] = false, --// distance esp to see the distance dumbass.
+        ["WeaponESP"] = false, --// see what tool a person has in the hand dumbass.
+        ["HealthBar"] = false, --// see a fat nigga health ugly bitch.
+        ["NameESP"] = false, --// See a person real name.
+
+    },
+    ["Saftey"] = {
+    ['AntiCurve'] = true,
+    
+    
+
+    
+    
+        
+    
+    },
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5c9c8c527bad3a62251c10cb064329aa.lua"))()
